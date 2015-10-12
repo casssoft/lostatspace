@@ -10,6 +10,8 @@ You CANNOT use this code to do the following:
   sell the executable
   sell the code
 
+This license doesn't apply to OpenSimplexNoise.c and OpenSimplexNoise.h which have a different license
+specified in OpenSimplexNoise.c. I didn't make these files I simply ported the files from Java to C.
 
 Later I will figure out an offical license, but for now use this.
 
