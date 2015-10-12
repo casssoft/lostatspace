@@ -1,3 +1,29 @@
+LICENSE: You can only use this code to do the following:
+  compile in order for you to play the game
+  investigate implementation methods to reuse elsewhere (no copy paste without permission!)
+  contribute to this game
+
+You CANNOT use this code to do the following:
+  distribute the code
+  distribute the executable complied from code (ask for permission)
+  fork this code to make a different game (ask for permission)
+  sell the executable
+  sell the code
+
+
+Later I will figure out an offical license, but for now use this.
+
+
+TO COMPILE:
+  This is currently only for mac and linux. It seems to work better on linux 'Konsole' then mac 'Terminal'.
+
+  just go to directory and run:
+    make
+
+
+  On mac you might need to remove the -lm from the last line in the makefile
+
+
 CONTROLS:
 A and D rotate ship
 W accelerates forward
@@ -5,7 +31,7 @@ S accelerates backward
 
 SPACE fires
 
-Legned:
+Legend:
 Oo : Your ship.
 %o : Enemy ships.
 green X : Asteroid. If you hit this you lose.
