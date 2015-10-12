@@ -1,0 +1,14 @@
+CONTROLS:
+A and D rotate ship
+W accelerates forward
+S accelerates backward
+
+SPACE fires
+
+Legned:
+Oo : Your ship.
+%o : Enemy ships.
+green X : Asteroid. If you hit this you lose.
+green @ : Enemy shots. If you hit this you lose.
+@ : Your shots.
+$ : Fuel. Shooting costs 2 fuel and accerlating costs 1 fuel
