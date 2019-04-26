@@ -393,7 +393,7 @@ void reset(int*tilemap, Shot*shots, Enemy*enies, double*x, double* y, int *cx, i
   OSN_init(&osn, time(NULL));
   for (j = 0; j < MAPY; ++j) {
     for (i = 0; i < MAPX; ++i) {
-      if (.2 * OSN_eval(&osn, i/5.0, j/5.0) + .8 * OSN_eval(&osn, (double)i/15.0, (double)j/15.0) > .4) {
+      if (.2 * OSN_eval(&osn, i/5.0, j/5.0) + .8 * OSN_eval(&osn, (double)i/15.0, (double)j/15.0) > .1) {
         tilemap[i + j * MAPX] = 1;
       } else {
         if (rand() % 4000 == 0) {
@@ -506,6 +506,7 @@ int main() {
                 break;
               case 's':
                 vy += .03;
+                fuel--;
                 break;
             }
           }
